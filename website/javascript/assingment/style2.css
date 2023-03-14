@@ -1,0 +1,34 @@
+h1{
+    color: rgb(236, 232, 13);
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border-color: beige;
+    border-width: 5px;
+    border-style: ridge;
+    font-size: 30px;
+
+}
+
+body{
+    color: rgb(60, 24, 129);
+    background-image: url(cool/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+p{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(25, 41, 186);
+    border-radius: 10px;
+    padding: 5px;
+    
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>spotify clone</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        
+            <h1>COOL PLAYLISTS</h1>
+            <a href="playlist.html"><img src="cool/">
+              <div id="playlists">
+          <div class="Musician 1">
+            <h2>RIHANA</h2>
+            <img src="cool/Rihana.jpeg" width="150" height="150">
+            <audio controls>
+              <source src="cool/audio 1.mp3"
+              type="audio/mp3">
+            </audio>
+            <button class="play_btn"> Play </button>
+            <button class="pause_btn"> Pause </button>
+            
+          </div>
+          <div class="Musician 2">
+            <h2>MILEY CYRUS</h2>
+            <img src="cool/miley cyrus.jpg" width="150" height="150">
+            <audio controls>
+                <source src="cool/audio 2.mp3"
+                type="audio/mp3">
+              </audio>
+              <button class="play Audio"> Play </button>
+              <button class="Pause Audio"> Pause </button>
+       
+          </div>
+           <div class="Musician 3">
+            <h2>GOTYE</h2>
+            <img src="cool/gotye.jpg" width="150" height="150">
+            <audio controls>
+                <source src="cool/audio 3.mp3"
+                type="audio/mp3">
+              </audio>
+              <button class="play Audio"> Play </button>
+              <button class="Pause Audio"> Pause </button>
+              
+           </div>
+           <div class="Musician 4">
+            <h2>STEPHEN SANCHEZ</h2>
+           <img src="cool/stephen sanchez.jpg" width="150" height="150">
+           <audio controls>
+            <source src="cool/audio 4.mp3"
+            type="audio/mp3">
+          </audio>
+          <button class="play Audio"> Play </button>
+          <button class="Pause Audio"> Pause </button>
+           </div>
+          <script>
+            const artists = document.querySelectorAll('.artist');
+
+            artists.forEach((artits) => {
+           const audio = artists.querySelector("play_btn").onclick;
+           const playbutton = artist.querySelector('.play');
+           const stopbutton = artist.querySelector('.stop');
+
+    playbutton.addEventListener('click',() => {
+        audio.play();
+    });
+
+    stopbutton.addEventListener('click',() => {
+        audio.pause();
+        audio.currentTime = 0;
+    });
+});
+          </script>
+  </body>
+</html>
